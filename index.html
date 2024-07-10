@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>a</title>
+    <title>Encriptador de texto</title>
     <link rel="stylesheet" href="style.css">
     
 </head>
@@ -14,7 +14,7 @@
                 <textarea class="inputTexto" name="inputTexto" id="inputTexto" cols="30" rows="10" placeholder="Introduce el texto aquí..."></textarea>
             </div>
             <div class="condiciones">
-                <p class="condiciones__mensaje">Solo letras minusculas y sin acentos</p>
+                <p class="condiciones__mensaje">**Solo letras minusculas y sin acentos</p>
             </div>
         </div>
 
@@ -24,19 +24,19 @@
             </div>
         
         <div class="encriptado">
-            <img src="./assets/investigador.png" alt="imagen" id="imagenencriptador">
-            <div class="mensaje__encriptado" id="mensaje__encriptado">
-            <h2 class="mensaje__encriptado__vacio" id="titulo__mensaje">Ningun mensaje encontrado</h2>
-            <p class="mensaje__encriptado__p" id="subtitulo__mensaje">Ingresa el texto que deseas encriptar o desencriptar</p>    
+            
+            <div class="mensaje__encriptado" id="mensaje__encriptado"> 
             <div class="texto__salida">
+                <textarea class="outputtexto" name="outputTexto" id="outputTexto" cols="30" rows="10" readonly></textarea>
+                
+                </div>
                 
         
+            </div>
         </div>
 
-        <footer class="footer">
-            <p>Desarrollado por Juan Alzate</p>
-            
-        </footer>
+
+      
     </main>
 </body>
 <script src="app.js" defer></script>

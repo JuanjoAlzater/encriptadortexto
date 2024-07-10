@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <main class="container">
+        <div class="encriptar">
+            <div class="texto__entrada">
+                <textarea class="inputTexto" name="inputTexto" id="inputTexto" cols="30" rows="10" placeholder="Introduce el texto aquí..."></textarea>
+            </div>
+            <div class="condiciones">
+                <p class="condiciones__mensaje">Solo letras minusculas y sin acentos</p>
+            </div>
+        </div>
+
+            <div class="botones">
+                <button class="boton__encriptar" type="button" onclick="encriptarTexto()">Encriptar</button>
+                <button class="boton__desencriptar" type="button" onclick="desencriptarTexto()">Desencriptar</button>
+            </div>
+        
+        <div class="encriptado">
+            <img src="./assets/investigador.png" alt="imagen" id="imagenencriptador">
+            <div class="mensaje__encriptado" id="mensaje__encriptado">
+            <h2 class="mensaje__encriptado__vacio" id="titulo__mensaje">Ningun mensaje encontrado</h2>
+            <p class="mensaje__encriptado__p" id="subtitulo__mensaje">Ingresa el texto que deseas encriptar o desencriptar</p>    
+            <div class="texto__salida">
+                
+        
+        </div>
+
+        <footer class="footer">
+            <p>Desarrollado por Juan Alzate</p>
+            
+        </footer>
+    </main>
+</body>
+<script src="app.js" defer></script>
+</html>

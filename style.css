@@ -136,41 +136,26 @@
     gap: 16px;
     position: absolute;
     width: 100%;
-    top: 65%;
+    top: 5%;
     text-align: center;
     
 }
-
-.mensaje__encriptado__vacio{
-    width: 60%;
+.outputtexto{
+    border: none;
     font-family: "Inter";
     font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 120%;
-    text-align: center;
-    color: #343A40;
-
+    font-size: 15px;
+    line-height: 90%;
+    background-color: #ffffff;
 }
 
-.mensaje__encriptado__p{
-    width: 80% ;
-    font-family: "Inter";
-    font-style: normal ;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    text-align: center;
-    color:#495057 ;
-
+    .outputtexto:focus,
+    .outputtexto:active {
+    border: none;
+    outline: none ;
 }
-.encriptado img{
-    position: absolute;
-    width: 80%;
-    height: 50%;
-    top: 15%;
 
-}
+
 
 @media (max-width:57.5em) {
     .container {
@@ -233,4 +218,6 @@
 
     }
 } 
+
+
 
